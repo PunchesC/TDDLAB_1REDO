@@ -5,20 +5,20 @@ describe("translate", () => {
     let result = translate("Apple");
     expect(result).toEqual("appleway");
   });
-  test ("banana string", () => {
+  test ("e string", () => {
     let result = translate("earth");
     expect(result).toEqual("earthway");
   });
   
-  test ("banana string", () => {
+  test ("i string", () => {
     let result = translate("Ice");
     expect(result).toEqual("iceway");
   });
-  test ("banana string", () => {
+  test ("ostring", () => {
     let result = translate("ocean");
     expect(result).toEqual("oceanway");
   });
-  test ("banana string", () => {
+  test ("u string", () => {
     let result = translate("underware");
     expect(result).toEqual("underwareway");
   });
@@ -45,7 +45,7 @@ describe("translate", () => {
   });
   
   test ("banana string", () => {
-    let result = translate("tractor");
+    let result = translate("Tractor");
     expect(result).toEqual("actortray");
   });
 
